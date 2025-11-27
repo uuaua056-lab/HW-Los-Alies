@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+   
+ 
+    align-items: center;
+justify-content: space-around;
+
+
+
+
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(7, 7, 7);
+ 
+
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  font-size: 25px;
+  
+  
+
+}
+.btn1{
+    width: 256px;
+height: 36px;
+top: 17px;
+left: 218px;
+border-radius: 12px;
+background-color: #FC004A;
+border: none;
+color: white;;
+font-weight: 400;
+font-size: 14.75px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+margin-right: 0px;
+
+
+}
+.bilmi{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+}
+.h1brat{
+    text-align: start;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.card{
+    width: 235px;
+height: 391px;
+opacity: 1;
+top: 576px;
+left: 24px;
+border-radius: 15px;
+box-shadow: 0px 4px 6px -4px #0000001A;
+
+box-shadow: 0px 10px 15px -3px #0000001A;
+
+
+}
+.ota-card .card h2{
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+span{
+font-weight: 500;
+font-style: Medium;
+font-size: 18.28px;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #FC004A;
+margin-right: 90px;
+
+}
+.ota-card .card button{
+    width: 40px;
+height: 40px;
+opacity: 1;
+border-radius: 9999px;
+background-color: #FC004A;
+color: white;
+border: none;
+font-size: 40px;
+
+}
+.ota-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px
+    ;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.herof{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 75px;
+}
